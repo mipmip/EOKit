@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3E8E739E1C32A36500499482"
-               BuildableName = "Sample EOKit.app"
-               BlueprintName = "Sample EOKit"
+               BlueprintIdentifier = "3E8E73B81C32A50500499482"
+               BuildableName = "SampleApp OSX.app"
+               BlueprintName = "SampleApp OSX"
                ReferencedContainer = "container:EOKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3E8E739E1C32A36500499482"
-            BuildableName = "Sample EOKit.app"
-            BlueprintName = "Sample EOKit"
+            BlueprintIdentifier = "3E8E73B81C32A50500499482"
+            BuildableName = "SampleApp OSX.app"
+            BlueprintName = "SampleApp OSX"
             ReferencedContainer = "container:EOKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3E8E739E1C32A36500499482"
-            BuildableName = "Sample EOKit.app"
-            BlueprintName = "Sample EOKit"
+            BlueprintIdentifier = "3E8E73B81C32A50500499482"
+            BuildableName = "SampleApp OSX.app"
+            BlueprintName = "SampleApp OSX"
             ReferencedContainer = "container:EOKit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3E8E739E1C32A36500499482"
-            BuildableName = "Sample EOKit.app"
-            BlueprintName = "Sample EOKit"
+            BlueprintIdentifier = "3E8E73B81C32A50500499482"
+            BuildableName = "SampleApp OSX.app"
+            BlueprintName = "SampleApp OSX"
             ReferencedContainer = "container:EOKit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

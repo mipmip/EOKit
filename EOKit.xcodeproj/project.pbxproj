@@ -13,16 +13,16 @@
 		3E8E73971C32A20C00499482 /* HelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E73951C32A20C00499482 /* HelloWorld.m */; };
 		3E8E73991C32A24B00499482 /* HelloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8E73981C32A24B00499482 /* HelloWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E8E739A1C32A24B00499482 /* HelloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8E73981C32A24B00499482 /* HelloWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E8E73A31C32A36500499482 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E73A21C32A36500499482 /* AppDelegate.m */; };
-		3E8E73A61C32A36500499482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E73A51C32A36500499482 /* main.m */; };
-		3E8E73A81C32A36500499482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8E73A71C32A36500499482 /* Assets.xcassets */; };
-		3E8E73AB1C32A36500499482 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E8E73A91C32A36500499482 /* MainMenu.xib */; };
-		3E8E73B01C32A42500499482 /* EOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8E737C1C32A04400499482 /* EOKit.framework */; };
-		3E8E73B11C32A42500499482 /* EOKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8E737C1C32A04400499482 /* EOKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3E8E73D21C32A53E00499482 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E73D11C32A53E00499482 /* AppDelegate.m */; };
+		3E8E73D51C32A53E00499482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E73D41C32A53E00499482 /* main.m */; };
+		3E8E73D71C32A53E00499482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8E73D61C32A53E00499482 /* Assets.xcassets */; };
+		3E8E73DA1C32A53E00499482 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E8E73D81C32A53E00499482 /* MainMenu.xib */; };
+		3E8E73DF1C32A56500499482 /* EOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8E737C1C32A04400499482 /* EOKit.framework */; };
+		3E8E73E01C32A56500499482 /* EOKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8E737C1C32A04400499482 /* EOKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3E8E73B21C32A42500499482 /* PBXContainerItemProxy */ = {
+		3E8E73E11C32A56500499482 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3E8E73731C32A04400499482 /* Project object */;
 			proxyType = 1;
@@ -32,13 +32,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3E8E73B41C32A42500499482 /* Embed Frameworks */ = {
+		3E8E73E31C32A56500499482 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3E8E73B11C32A42500499482 /* EOKit.framework in Embed Frameworks */,
+				3E8E73E01C32A56500499482 /* EOKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,13 +54,13 @@
 		3E8E73901C32A0A000499482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E8E73951C32A20C00499482 /* HelloWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelloWorld.m; path = "EOKit Shared/HelloWorld.m"; sourceTree = "<group>"; };
 		3E8E73981C32A24B00499482 /* HelloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloWorld.h; path = "EOKit Shared/HelloWorld.h"; sourceTree = "<group>"; };
-		3E8E739F1C32A36500499482 /* Sample EOKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample EOKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E8E73A11C32A36500499482 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3E8E73A21C32A36500499482 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3E8E73A51C32A36500499482 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3E8E73A71C32A36500499482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3E8E73AA1C32A36500499482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		3E8E73AC1C32A36500499482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8E73CE1C32A53E00499482 /* SampleApp OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SampleApp OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8E73D01C32A53E00499482 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E8E73D11C32A53E00499482 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E8E73D41C32A53E00499482 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E8E73D61C32A53E00499482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E8E73D91C32A53E00499482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3E8E73DB1C32A53E00499482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +78,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E8E739C1C32A36500499482 /* Frameworks */ = {
+		3E8E73CB1C32A53E00499482 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E8E73B01C32A42500499482 /* EOKit.framework in Frameworks */,
+				3E8E73DF1C32A56500499482 /* EOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +95,7 @@
 				3E8E73941C32A0F000499482 /* EOKit Shared */,
 				3E8E737E1C32A04400499482 /* EOKit OSX */,
 				3E8E738D1C32A0A000499482 /* EOKit iOS */,
-				3E8E73A01C32A36500499482 /* Sample EOKit */,
+				3E8E73CF1C32A53E00499482 /* SampleApp OSX */,
 				3E8E737D1C32A04400499482 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,7 +105,7 @@
 			children = (
 				3E8E737C1C32A04400499482 /* EOKit.framework */,
 				3E8E738C1C32A0A000499482 /* EOKit.framework */,
-				3E8E739F1C32A36500499482 /* Sample EOKit.app */,
+				3E8E73CE1C32A53E00499482 /* SampleApp OSX.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,23 +138,23 @@
 			name = "EOKit Shared";
 			sourceTree = "<group>";
 		};
-		3E8E73A01C32A36500499482 /* Sample EOKit */ = {
+		3E8E73CF1C32A53E00499482 /* SampleApp OSX */ = {
 			isa = PBXGroup;
 			children = (
-				3E8E73A11C32A36500499482 /* AppDelegate.h */,
-				3E8E73A21C32A36500499482 /* AppDelegate.m */,
-				3E8E73A71C32A36500499482 /* Assets.xcassets */,
-				3E8E73A91C32A36500499482 /* MainMenu.xib */,
-				3E8E73AC1C32A36500499482 /* Info.plist */,
-				3E8E73A41C32A36500499482 /* Supporting Files */,
+				3E8E73D01C32A53E00499482 /* AppDelegate.h */,
+				3E8E73D11C32A53E00499482 /* AppDelegate.m */,
+				3E8E73D61C32A53E00499482 /* Assets.xcassets */,
+				3E8E73D81C32A53E00499482 /* MainMenu.xib */,
+				3E8E73DB1C32A53E00499482 /* Info.plist */,
+				3E8E73D31C32A53E00499482 /* Supporting Files */,
 			);
-			path = "Sample EOKit";
+			path = "SampleApp OSX";
 			sourceTree = "<group>";
 		};
-		3E8E73A41C32A36500499482 /* Supporting Files */ = {
+		3E8E73D31C32A53E00499482 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3E8E73A51C32A36500499482 /* main.m */,
+				3E8E73D41C32A53E00499482 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -219,23 +219,23 @@
 			productReference = 3E8E738C1C32A0A000499482 /* EOKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3E8E739E1C32A36500499482 /* Sample EOKit */ = {
+		3E8E73CD1C32A53E00499482 /* SampleApp OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E8E73AD1C32A36500499482 /* Build configuration list for PBXNativeTarget "Sample EOKit" */;
+			buildConfigurationList = 3E8E73DC1C32A53E00499482 /* Build configuration list for PBXNativeTarget "SampleApp OSX" */;
 			buildPhases = (
-				3E8E739B1C32A36500499482 /* Sources */,
-				3E8E739C1C32A36500499482 /* Frameworks */,
-				3E8E739D1C32A36500499482 /* Resources */,
-				3E8E73B41C32A42500499482 /* Embed Frameworks */,
+				3E8E73CA1C32A53E00499482 /* Sources */,
+				3E8E73CB1C32A53E00499482 /* Frameworks */,
+				3E8E73CC1C32A53E00499482 /* Resources */,
+				3E8E73E31C32A56500499482 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3E8E73B31C32A42500499482 /* PBXTargetDependency */,
+				3E8E73E21C32A56500499482 /* PBXTargetDependency */,
 			);
-			name = "Sample EOKit";
-			productName = "Sample EOKit";
-			productReference = 3E8E739F1C32A36500499482 /* Sample EOKit.app */;
+			name = "SampleApp OSX";
+			productName = "SampleApp OSX";
+			productReference = 3E8E73CE1C32A53E00499482 /* SampleApp OSX.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -253,7 +253,7 @@
 					3E8E738B1C32A0A000499482 = {
 						CreatedOnToolsVersion = 7.2;
 					};
-					3E8E739E1C32A36500499482 = {
+					3E8E73CD1C32A53E00499482 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -273,7 +273,7 @@
 			targets = (
 				3E8E737B1C32A04400499482 /* EOKit OSX */,
 				3E8E738B1C32A0A000499482 /* EOKit iOS */,
-				3E8E739E1C32A36500499482 /* Sample EOKit */,
+				3E8E73CD1C32A53E00499482 /* SampleApp OSX */,
 			);
 		};
 /* End PBXProject section */
@@ -293,12 +293,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E8E739D1C32A36500499482 /* Resources */ = {
+		3E8E73CC1C32A53E00499482 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E8E73A81C32A36500499482 /* Assets.xcassets in Resources */,
-				3E8E73AB1C32A36500499482 /* MainMenu.xib in Resources */,
+				3E8E73D71C32A53E00499482 /* Assets.xcassets in Resources */,
+				3E8E73DA1C32A53E00499482 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,30 +321,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E8E739B1C32A36500499482 /* Sources */ = {
+		3E8E73CA1C32A53E00499482 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E8E73A61C32A36500499482 /* main.m in Sources */,
-				3E8E73A31C32A36500499482 /* AppDelegate.m in Sources */,
+				3E8E73D51C32A53E00499482 /* main.m in Sources */,
+				3E8E73D21C32A53E00499482 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3E8E73B31C32A42500499482 /* PBXTargetDependency */ = {
+		3E8E73E21C32A56500499482 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3E8E737B1C32A04400499482 /* EOKit OSX */;
-			targetProxy = 3E8E73B21C32A42500499482 /* PBXContainerItemProxy */;
+			targetProxy = 3E8E73E11C32A56500499482 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3E8E73A91C32A36500499482 /* MainMenu.xib */ = {
+		3E8E73D81C32A53E00499482 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3E8E73AA1C32A36500499482 /* Base */,
+				3E8E73D91C32A53E00499482 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -514,26 +514,26 @@
 			};
 			name = Release;
 		};
-		3E8E73AE1C32A36500499482 /* Debug */ = {
+		3E8E73DD1C32A53E00499482 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Sample EOKit/Info.plist";
+				INFOPLIST_FILE = "SampleApp OSX/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lingewoud.Sample-EOKit";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lingewoud.SampleApp-OSX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		3E8E73AF1C32A36500499482 /* Release */ = {
+		3E8E73DE1C32A53E00499482 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Sample EOKit/Info.plist";
+				INFOPLIST_FILE = "SampleApp OSX/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lingewoud.Sample-EOKit";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lingewoud.SampleApp-OSX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -566,11 +566,11 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		3E8E73AD1C32A36500499482 /* Build configuration list for PBXNativeTarget "Sample EOKit" */ = {
+		3E8E73DC1C32A53E00499482 /* Build configuration list for PBXNativeTarget "SampleApp OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E8E73AE1C32A36500499482 /* Debug */,
-				3E8E73AF1C32A36500499482 /* Release */,
+				3E8E73DD1C32A53E00499482 /* Debug */,
+				3E8E73DE1C32A53E00499482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

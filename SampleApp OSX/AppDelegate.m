@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  Sample EOKit
+//  SampleApp OSX
 //
 //  Created by Pim Snel on 29-12-15.
 //  Copyright © 2015 Lingewoud BV. All rights reserved.
@@ -19,7 +19,6 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
     
-
     HelloWorld *objectOfYourCustomClass = [[HelloWorld alloc] init];
     objectOfYourCustomClass.name = @"Pim";
     [objectOfYourCustomClass sayHello];

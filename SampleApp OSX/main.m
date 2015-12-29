@@ -1,6 +1,6 @@
 //
-//  AppDelegate.h
-//  Sample EOKit
+//  main.m
+//  SampleApp OSX
 //
 //  Created by Pim Snel on 29-12-15.
 //  Copyright © 2015 Lingewoud BV. All rights reserved.
@@ -8,8 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-
-
-@end
-
+int main(int argc, const char * argv[]) {
+    return NSApplicationMain(argc, argv);
+}
