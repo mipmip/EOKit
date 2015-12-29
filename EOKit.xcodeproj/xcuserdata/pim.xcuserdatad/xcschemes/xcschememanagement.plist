@@ -4,17 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>EOKit OSX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
 		<key>EOKit iOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>EOKit.xcscheme</key>
+		<key>SampleApp OSX.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
-		<key>SampleApp OSX.xcscheme</key>
+		<key>SampleApp iOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
@@ -43,6 +48,11 @@
 			<true/>
 		</dict>
 		<key>3E8E73CD1C32A53E00499482</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3E8E73E71C32A5D700499482</key>
 		<dict>
 			<key>primary</key>
 			<true/>
