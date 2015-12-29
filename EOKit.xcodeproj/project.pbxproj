@@ -78,8 +78,8 @@
 		3E8E738C1C32A0A000499482 /* EOKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EOKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8E738E1C32A0A000499482 /* EOKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOKit.h; sourceTree = "<group>"; };
 		3E8E73901C32A0A000499482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E8E73951C32A20C00499482 /* HelloWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelloWorld.m; path = "EOKit Shared/HelloWorld.m"; sourceTree = "<group>"; };
-		3E8E73981C32A24B00499482 /* HelloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloWorld.h; path = "EOKit Shared/HelloWorld.h"; sourceTree = "<group>"; };
+		3E8E73951C32A20C00499482 /* HelloWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorld.m; sourceTree = "<group>"; };
+		3E8E73981C32A24B00499482 /* HelloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorld.h; sourceTree = "<group>"; };
 		3E8E73CE1C32A53E00499482 /* SampleApp OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SampleApp OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8E73D01C32A53E00499482 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E8E73D11C32A53E00499482 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -183,6 +183,7 @@
 				3E8E73951C32A20C00499482 /* HelloWorld.m */,
 			);
 			name = "EOKit Shared";
+			path = Classes/EOKitShared;
 			sourceTree = "<group>";
 		};
 		3E8E73CF1C32A53E00499482 /* SampleApp OSX */ = {
