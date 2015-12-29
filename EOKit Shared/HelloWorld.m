@@ -15,5 +15,11 @@
 
 - (void)sayHello {
     NSLog(@"Hello hello %@", self.name);
+    
+    NSString * appVersionString = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
+    NSString * appBuildString = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"];
+    NSString * versionBuildString = [NSString stringWithFormat:@"Version: %@ (%@)", appVersionString, appBuildString];
+    NSLog(@"This is EOKit: %@", versionBuildString);
+
 }
 @end
