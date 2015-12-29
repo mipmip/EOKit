@@ -17,4 +17,11 @@ FOUNDATION_EXPORT const unsigned char EOKitVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <EOKit/PublicHeader.h>
 
 #import <EOKit/HelloWorld.h>
+#import <EOKit/EOAPIProvider.h>
+
+//#import <WebKit/WebKit.h>
+#import <EOKit/EOAuthWindowController.h>
+#import <EOKit/EOAuthorizationViewController.h>
+
+
 

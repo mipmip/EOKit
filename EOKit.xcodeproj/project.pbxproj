@@ -27,6 +27,31 @@
 		3E8E740A1C32A73500499482 /* EOKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8E738C1C32A0A000499482 /* EOKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3E8E740E1C32A87D00499482 /* EOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8E737C1C32A04400499482 /* EOKit.framework */; };
 		3E8E740F1C32A87D00499482 /* EOKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8E737C1C32A04400499482 /* EOKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3EA0B1991C32C52000B664E4 /* EOLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0B1971C32C52000B664E4 /* EOLoginViewController.m */; };
+		3EA0B19A1C32C52000B664E4 /* EOLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EA0B1981C32C52000B664E4 /* EOLoginViewController.xib */; };
+		3EA0B1B01C32CEF300B664E4 /* EOAPIProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA0B1AE1C32CEF300B664E4 /* EOAPIProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA0B1B11C32CEF300B664E4 /* EOAPIProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA0B1AE1C32CEF300B664E4 /* EOAPIProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA0B1B21C32CEF300B664E4 /* EOAPIProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0B1AF1C32CEF300B664E4 /* EOAPIProvider.m */; };
+		3EA0B1B31C32CEF300B664E4 /* EOAPIProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0B1AF1C32CEF300B664E4 /* EOAPIProvider.m */; };
+		3EA0B1B81C32CF0700B664E4 /* EORequestInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA0B1B41C32CF0700B664E4 /* EORequestInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA0B1B91C32CF0700B664E4 /* EORequestInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA0B1B41C32CF0700B664E4 /* EORequestInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA0B1BA1C32CF0700B664E4 /* EORequestInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0B1B51C32CF0700B664E4 /* EORequestInfo.m */; };
+		3EA0B1BB1C32CF0700B664E4 /* EORequestInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0B1B51C32CF0700B664E4 /* EORequestInfo.m */; };
+		3EA0B1BC1C32CF0700B664E4 /* EORESTRequestInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA0B1B61C32CF0700B664E4 /* EORESTRequestInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA0B1BD1C32CF0700B664E4 /* EORESTRequestInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA0B1B61C32CF0700B664E4 /* EORESTRequestInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA0B1BE1C32CF0700B664E4 /* EORESTRequestInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0B1B71C32CF0700B664E4 /* EORESTRequestInfo.m */; };
+		3EA0B1BF1C32CF0700B664E4 /* EORESTRequestInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0B1B71C32CF0700B664E4 /* EORESTRequestInfo.m */; };
+		3EA0B1C21C32CF4200B664E4 /* EOJSONResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA0B1C01C32CF4200B664E4 /* EOJSONResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA0B1C31C32CF4200B664E4 /* EOJSONResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA0B1C01C32CF4200B664E4 /* EOJSONResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA0B1C41C32CF4200B664E4 /* EOJSONResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0B1C11C32CF4200B664E4 /* EOJSONResponseSerializer.m */; };
+		3EA0B1C51C32CF4200B664E4 /* EOJSONResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0B1C11C32CF4200B664E4 /* EOJSONResponseSerializer.m */; };
+		3EA0B1C81C32CFF100B664E4 /* EOAPIProviderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA0B1C61C32CFF100B664E4 /* EOAPIProviderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA0B1C91C32CFF100B664E4 /* EOAPIProviderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA0B1C61C32CFF100B664E4 /* EOAPIProviderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA0B1CA1C32CFF100B664E4 /* EOAPIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA0B1C71C32CFF100B664E4 /* EOAPIConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA0B1CB1C32CFF100B664E4 /* EOAPIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA0B1C71C32CFF100B664E4 /* EOAPIConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA0B1DA1C32DE0300B664E4 /* EOAuthorizationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA0B1D71C32DE0300B664E4 /* EOAuthorizationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA0B1DB1C32DE0300B664E4 /* EOAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0B1D81C32DE0300B664E4 /* EOAuthorizationViewController.m */; };
+		3EA0B1DC1C32DE0300B664E4 /* EOAuthorizationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EA0B1D91C32DE0300B664E4 /* EOAuthorizationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +122,22 @@
 		3E8E73F61C32A5D700499482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E8E73F91C32A5D700499482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E8E73FB1C32A5D700499482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EA0B1961C32C52000B664E4 /* EOLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOLoginViewController.h; sourceTree = "<group>"; };
+		3EA0B1971C32C52000B664E4 /* EOLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOLoginViewController.m; sourceTree = "<group>"; };
+		3EA0B1981C32C52000B664E4 /* EOLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EOLoginViewController.xib; sourceTree = "<group>"; };
+		3EA0B1AE1C32CEF300B664E4 /* EOAPIProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOAPIProvider.h; sourceTree = "<group>"; };
+		3EA0B1AF1C32CEF300B664E4 /* EOAPIProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOAPIProvider.m; sourceTree = "<group>"; };
+		3EA0B1B41C32CF0700B664E4 /* EORequestInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EORequestInfo.h; sourceTree = "<group>"; };
+		3EA0B1B51C32CF0700B664E4 /* EORequestInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EORequestInfo.m; sourceTree = "<group>"; };
+		3EA0B1B61C32CF0700B664E4 /* EORESTRequestInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EORESTRequestInfo.h; sourceTree = "<group>"; };
+		3EA0B1B71C32CF0700B664E4 /* EORESTRequestInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EORESTRequestInfo.m; sourceTree = "<group>"; };
+		3EA0B1C01C32CF4200B664E4 /* EOJSONResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOJSONResponseSerializer.h; sourceTree = "<group>"; };
+		3EA0B1C11C32CF4200B664E4 /* EOJSONResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOJSONResponseSerializer.m; sourceTree = "<group>"; };
+		3EA0B1C61C32CFF100B664E4 /* EOAPIProviderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOAPIProviderDelegate.h; sourceTree = "<group>"; };
+		3EA0B1C71C32CFF100B664E4 /* EOAPIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOAPIConstants.h; sourceTree = "<group>"; };
+		3EA0B1D71C32DE0300B664E4 /* EOAuthorizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOAuthorizationViewController.h; sourceTree = "<group>"; };
+		3EA0B1D81C32DE0300B664E4 /* EOAuthorizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOAuthorizationViewController.m; sourceTree = "<group>"; };
+		3EA0B1D91C32DE0300B664E4 /* EOAuthorizationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EOAuthorizationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +202,9 @@
 			children = (
 				3E8E737F1C32A04400499482 /* EOKit.h */,
 				3E8E73811C32A04400499482 /* Info.plist */,
+				3EA0B1D71C32DE0300B664E4 /* EOAuthorizationViewController.h */,
+				3EA0B1D81C32DE0300B664E4 /* EOAuthorizationViewController.m */,
+				3EA0B1D91C32DE0300B664E4 /* EOAuthorizationViewController.xib */,
 			);
 			name = "EOKit OSX";
 			path = Classes/EOKitOSX;
@@ -179,6 +223,16 @@
 		3E8E73941C32A0F000499482 /* EOKit Shared */ = {
 			isa = PBXGroup;
 			children = (
+				3EA0B1C61C32CFF100B664E4 /* EOAPIProviderDelegate.h */,
+				3EA0B1C71C32CFF100B664E4 /* EOAPIConstants.h */,
+				3EA0B1C01C32CF4200B664E4 /* EOJSONResponseSerializer.h */,
+				3EA0B1C11C32CF4200B664E4 /* EOJSONResponseSerializer.m */,
+				3EA0B1AE1C32CEF300B664E4 /* EOAPIProvider.h */,
+				3EA0B1AF1C32CEF300B664E4 /* EOAPIProvider.m */,
+				3EA0B1B41C32CF0700B664E4 /* EORequestInfo.h */,
+				3EA0B1B51C32CF0700B664E4 /* EORequestInfo.m */,
+				3EA0B1B61C32CF0700B664E4 /* EORESTRequestInfo.h */,
+				3EA0B1B71C32CF0700B664E4 /* EORESTRequestInfo.m */,
 				3E8E73981C32A24B00499482 /* HelloWorld.h */,
 				3E8E73951C32A20C00499482 /* HelloWorld.m */,
 			);
@@ -195,6 +249,7 @@
 				3E8E73D81C32A53E00499482 /* MainMenu.xib */,
 				3E8E73DB1C32A53E00499482 /* Info.plist */,
 				3E8E73D31C32A53E00499482 /* Supporting Files */,
+				3EA0B19B1C32C52900B664E4 /* Login */,
 			);
 			path = "SampleApp OSX";
 			sourceTree = "<group>";
@@ -231,6 +286,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3EA0B19B1C32C52900B664E4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3EA0B1961C32C52000B664E4 /* EOLoginViewController.h */,
+				3EA0B1971C32C52000B664E4 /* EOLoginViewController.m */,
+				3EA0B1981C32C52000B664E4 /* EOLoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -238,8 +303,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA0B1B01C32CEF300B664E4 /* EOAPIProvider.h in Headers */,
+				3EA0B1CA1C32CFF100B664E4 /* EOAPIConstants.h in Headers */,
 				3E8E73991C32A24B00499482 /* HelloWorld.h in Headers */,
+				3EA0B1DA1C32DE0300B664E4 /* EOAuthorizationViewController.h in Headers */,
+				3EA0B1BC1C32CF0700B664E4 /* EORESTRequestInfo.h in Headers */,
+				3EA0B1B81C32CF0700B664E4 /* EORequestInfo.h in Headers */,
 				3E8E73801C32A04400499482 /* EOKit.h in Headers */,
+				3EA0B1C21C32CF4200B664E4 /* EOJSONResponseSerializer.h in Headers */,
+				3EA0B1C81C32CFF100B664E4 /* EOAPIProviderDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,8 +319,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA0B1B11C32CEF300B664E4 /* EOAPIProvider.h in Headers */,
+				3EA0B1CB1C32CFF100B664E4 /* EOAPIConstants.h in Headers */,
 				3E8E739A1C32A24B00499482 /* HelloWorld.h in Headers */,
+				3EA0B1BD1C32CF0700B664E4 /* EORESTRequestInfo.h in Headers */,
+				3EA0B1B91C32CF0700B664E4 /* EORequestInfo.h in Headers */,
 				3E8E738F1C32A0A000499482 /* EOKit.h in Headers */,
+				3EA0B1C31C32CF4200B664E4 /* EOJSONResponseSerializer.h in Headers */,
+				3EA0B1C91C32CFF100B664E4 /* EOAPIProviderDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +456,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA0B1DC1C32DE0300B664E4 /* EOAuthorizationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +473,7 @@
 			files = (
 				3E8E73D71C32A53E00499482 /* Assets.xcassets in Resources */,
 				3E8E73DA1C32A53E00499482 /* MainMenu.xib in Resources */,
+				3EA0B19A1C32C52000B664E4 /* EOLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +495,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E8E73961C32A20C00499482 /* HelloWorld.m in Sources */,
+				3EA0B1C41C32CF4200B664E4 /* EOJSONResponseSerializer.m in Sources */,
+				3EA0B1BE1C32CF0700B664E4 /* EORESTRequestInfo.m in Sources */,
+				3EA0B1BA1C32CF0700B664E4 /* EORequestInfo.m in Sources */,
+				3EA0B1DB1C32DE0300B664E4 /* EOAuthorizationViewController.m in Sources */,
+				3EA0B1B21C32CEF300B664E4 /* EOAPIProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +508,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E8E73971C32A20C00499482 /* HelloWorld.m in Sources */,
+				3EA0B1C51C32CF4200B664E4 /* EOJSONResponseSerializer.m in Sources */,
+				3EA0B1BF1C32CF0700B664E4 /* EORESTRequestInfo.m in Sources */,
+				3EA0B1BB1C32CF0700B664E4 /* EORequestInfo.m in Sources */,
+				3EA0B1B31C32CEF300B664E4 /* EOAPIProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +520,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E8E73D51C32A53E00499482 /* main.m in Sources */,
+				3EA0B1991C32C52000B664E4 /* EOLoginViewController.m in Sources */,
 				3E8E73D21C32A53E00499482 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

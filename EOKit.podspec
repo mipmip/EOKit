@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "EOKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "EOKit is an Exact Online client library for iOS and OSX."
   s.description  = <<-DESC
   EOKit is an Exact Online client library for iOS and OSX. Other platform will
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # s.tvos.deployment_target = "9.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/Lingewoud/EOKit.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/Lingewoud/EOKit.git", :tag => "0.0.2" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -39,6 +39,11 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
 
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.resource_bundles = {
+    'Xibs' => [
+      'Classes/**/*.xib'
+    ]
+  }
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
