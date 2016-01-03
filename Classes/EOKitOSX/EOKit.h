@@ -6,7 +6,8 @@
 //  Copyright © 2015 Lingewoud BV. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+//#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for EOKit.
 FOUNDATION_EXPORT double EOKitVersionNumber;
@@ -16,12 +17,6 @@ FOUNDATION_EXPORT const unsigned char EOKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <EOKit/PublicHeader.h>
 
-#import <EOKit/HelloWorld.h>
 #import <EOKit/EOAPIProvider.h>
-
-//#import <WebKit/WebKit.h>
-#import <EOKit/EOAuthWindowController.h>
 #import <EOKit/EOAuthorizationViewController.h>
-
-
 

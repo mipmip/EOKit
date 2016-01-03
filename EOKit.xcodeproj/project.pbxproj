@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E7E3D521C340FA5004C43E7 /* EOAuthorizationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7E3D501C340FA5004C43E7 /* EOAuthorizationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E7E3D531C340FA5004C43E7 /* EOAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E3D511C340FA5004C43E7 /* EOAuthorizationViewController.m */; };
 		3E8E73801C32A04400499482 /* EOKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8E737F1C32A04400499482 /* EOKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E8E738F1C32A0A000499482 /* EOKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8E738E1C32A0A000499482 /* EOKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E8E73961C32A20C00499482 /* HelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E73951C32A20C00499482 /* HelloWorld.m */; };
-		3E8E73971C32A20C00499482 /* HelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E73951C32A20C00499482 /* HelloWorld.m */; };
-		3E8E73991C32A24B00499482 /* HelloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8E73981C32A24B00499482 /* HelloWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E8E739A1C32A24B00499482 /* HelloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8E73981C32A24B00499482 /* HelloWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E8E73D21C32A53E00499482 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E73D11C32A53E00499482 /* AppDelegate.m */; };
 		3E8E73D51C32A53E00499482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E73D41C32A53E00499482 /* main.m */; };
 		3E8E73D71C32A53E00499482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8E73D61C32A53E00499482 /* Assets.xcassets */; };
@@ -51,7 +49,6 @@
 		3EA0B1CB1C32CFF100B664E4 /* EOAPIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA0B1C71C32CFF100B664E4 /* EOAPIConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EA0B1DA1C32DE0300B664E4 /* EOAuthorizationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA0B1D71C32DE0300B664E4 /* EOAuthorizationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EA0B1DB1C32DE0300B664E4 /* EOAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0B1D81C32DE0300B664E4 /* EOAuthorizationViewController.m */; };
-		3EA0B1DC1C32DE0300B664E4 /* EOAuthorizationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EA0B1D91C32DE0300B664E4 /* EOAuthorizationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,14 +94,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3E7E3D501C340FA5004C43E7 /* EOAuthorizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOAuthorizationViewController.h; sourceTree = "<group>"; };
+		3E7E3D511C340FA5004C43E7 /* EOAuthorizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOAuthorizationViewController.m; sourceTree = "<group>"; };
 		3E8E737C1C32A04400499482 /* EOKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EOKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8E737F1C32A04400499482 /* EOKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOKit.h; sourceTree = "<group>"; };
 		3E8E73811C32A04400499482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E8E738C1C32A0A000499482 /* EOKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EOKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8E738E1C32A0A000499482 /* EOKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOKit.h; sourceTree = "<group>"; };
 		3E8E73901C32A0A000499482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E8E73951C32A20C00499482 /* HelloWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorld.m; sourceTree = "<group>"; };
-		3E8E73981C32A24B00499482 /* HelloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorld.h; sourceTree = "<group>"; };
 		3E8E73CE1C32A53E00499482 /* SampleApp OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SampleApp OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8E73D01C32A53E00499482 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E8E73D11C32A53E00499482 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -137,7 +134,6 @@
 		3EA0B1C71C32CFF100B664E4 /* EOAPIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOAPIConstants.h; sourceTree = "<group>"; };
 		3EA0B1D71C32DE0300B664E4 /* EOAuthorizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOAuthorizationViewController.h; sourceTree = "<group>"; };
 		3EA0B1D81C32DE0300B664E4 /* EOAuthorizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOAuthorizationViewController.m; sourceTree = "<group>"; };
-		3EA0B1D91C32DE0300B664E4 /* EOAuthorizationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EOAuthorizationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,7 +200,6 @@
 				3E8E73811C32A04400499482 /* Info.plist */,
 				3EA0B1D71C32DE0300B664E4 /* EOAuthorizationViewController.h */,
 				3EA0B1D81C32DE0300B664E4 /* EOAuthorizationViewController.m */,
-				3EA0B1D91C32DE0300B664E4 /* EOAuthorizationViewController.xib */,
 			);
 			name = "EOKit OSX";
 			path = Classes/EOKitOSX;
@@ -213,6 +208,8 @@
 		3E8E738D1C32A0A000499482 /* EOKit iOS */ = {
 			isa = PBXGroup;
 			children = (
+				3E7E3D501C340FA5004C43E7 /* EOAuthorizationViewController.h */,
+				3E7E3D511C340FA5004C43E7 /* EOAuthorizationViewController.m */,
 				3E8E738E1C32A0A000499482 /* EOKit.h */,
 				3E8E73901C32A0A000499482 /* Info.plist */,
 			);
@@ -233,8 +230,6 @@
 				3EA0B1B51C32CF0700B664E4 /* EORequestInfo.m */,
 				3EA0B1B61C32CF0700B664E4 /* EORESTRequestInfo.h */,
 				3EA0B1B71C32CF0700B664E4 /* EORESTRequestInfo.m */,
-				3E8E73981C32A24B00499482 /* HelloWorld.h */,
-				3E8E73951C32A20C00499482 /* HelloWorld.m */,
 			);
 			name = "EOKit Shared";
 			path = Classes/EOKitShared;
@@ -305,7 +300,6 @@
 			files = (
 				3EA0B1B01C32CEF300B664E4 /* EOAPIProvider.h in Headers */,
 				3EA0B1CA1C32CFF100B664E4 /* EOAPIConstants.h in Headers */,
-				3E8E73991C32A24B00499482 /* HelloWorld.h in Headers */,
 				3EA0B1DA1C32DE0300B664E4 /* EOAuthorizationViewController.h in Headers */,
 				3EA0B1BC1C32CF0700B664E4 /* EORESTRequestInfo.h in Headers */,
 				3EA0B1B81C32CF0700B664E4 /* EORequestInfo.h in Headers */,
@@ -320,8 +314,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EA0B1B11C32CEF300B664E4 /* EOAPIProvider.h in Headers */,
+				3E7E3D521C340FA5004C43E7 /* EOAuthorizationViewController.h in Headers */,
 				3EA0B1CB1C32CFF100B664E4 /* EOAPIConstants.h in Headers */,
-				3E8E739A1C32A24B00499482 /* HelloWorld.h in Headers */,
 				3EA0B1BD1C32CF0700B664E4 /* EORESTRequestInfo.h in Headers */,
 				3EA0B1B91C32CF0700B664E4 /* EORequestInfo.h in Headers */,
 				3E8E738F1C32A0A000499482 /* EOKit.h in Headers */,
@@ -456,7 +450,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EA0B1DC1C32DE0300B664E4 /* EOAuthorizationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,7 +487,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E8E73961C32A20C00499482 /* HelloWorld.m in Sources */,
 				3EA0B1C41C32CF4200B664E4 /* EOJSONResponseSerializer.m in Sources */,
 				3EA0B1BE1C32CF0700B664E4 /* EORESTRequestInfo.m in Sources */,
 				3EA0B1BA1C32CF0700B664E4 /* EORequestInfo.m in Sources */,
@@ -507,10 +499,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E8E73971C32A20C00499482 /* HelloWorld.m in Sources */,
 				3EA0B1C51C32CF4200B664E4 /* EOJSONResponseSerializer.m in Sources */,
 				3EA0B1BF1C32CF0700B664E4 /* EORESTRequestInfo.m in Sources */,
 				3EA0B1BB1C32CF0700B664E4 /* EORequestInfo.m in Sources */,
+				3E7E3D531C340FA5004C43E7 /* EOAuthorizationViewController.m in Sources */,
 				3EA0B1B31C32CEF300B664E4 /* EOAPIProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -615,7 +607,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -655,7 +648,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";

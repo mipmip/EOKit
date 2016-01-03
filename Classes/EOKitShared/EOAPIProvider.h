@@ -9,7 +9,25 @@
 #import <Foundation/Foundation.h>
 #import "EOAPIProviderDelegate.h"
 #import "EOAPIConstants.h"
+
+#import <Availability.h>
+#import <TargetConditionals.h>
+
+#if !TARGET_OS_IOS
+#import <Cocoa/Cocoa.h>
+//#import <EOKit/EOAuthWindowControllerOSX.h>
+//#import <EOKit/EOAuthorizationViewControllerOSX.h>
+#endif
+
+#if TARGET_OS_IOS
+//#import <EOKit/EOAuthWindowControllerIOS.h>
+//#import <EOKit/EOAuthorizationViewControllerIOS.h>
+#endif
+
 #import "EOAuthorizationViewController.h"
+
+
+
 
 @interface EOAPIProvider : NSObject
 
@@ -42,8 +60,8 @@
 
 // Authorization
 //- (void)authorizeWithCallbackURL:(NSString *)callbackURLString completion:(void(^)(NSError *error))completion;
-- (void)authorizeWithCallbackURL:(NSString *)callbackURLString authViewController:(EOAuthorizationViewController *)authorizationViewController completion:(void(^)(NSError *error))completion;
 
+- (void)authorizeWithCallbackURL:(NSString *)callbackURLString authViewController:(EOAuthorizationViewController *)authorizationViewController completion:(void(^)(NSError *error))completion;
 
 // Logs user out
 // Removes stored token information, cancel requests

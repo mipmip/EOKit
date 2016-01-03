@@ -18,11 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    HelloWorld *objectOfYourCustomClass = [[HelloWorld alloc] init];
-    objectOfYourCustomClass.name = @"Charlotte";
-    [objectOfYourCustomClass sayHello];
-    
+       
     return YES;
 }
 

@@ -12,11 +12,24 @@ adding a pod file
 - [x] seperate sample ios app
 - [x] seperate sample osx app
 - [x] use libs as pod dependancies
-- [ ] some eo functionality with pod deps
+- [x] some eo functionality with pod deps OSX
+- [x] functional features OSX sample app
+- [x] Cleanup sample OSX app
+- [x] ombouwen podspec/EOKit.h
+- [x] cleanup podspec/EOKit.h
+- [x] some eo functionality with pod deps iOS
+- [x] functional features OSX sample iOS
+- [x] osx sample app
 
 ### Next
-- [ ] move login to app, replace with delegate
+- [ ] add tests
+- [ ] add travis
+- [ ] create README text
+- [ ] cleanup public/private headers
 - [ ] App tokens to separate place
-- [ ] what to do which the login screen osx/ios/tvos
-- [ ] osx sample app
 - [ ] complete version bump
+
+## Descisions
+- [ ] move login to app, replace with delegate?
+- [ ] what to do which the login screen osx/ios/tvos
+- [ ] wel of geen sample apps in de eokit?

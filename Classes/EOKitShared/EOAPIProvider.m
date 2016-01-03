@@ -7,7 +7,7 @@
 //
 
 #import "EOAPIProvider.h"
-#import "EOAuthorizationViewController.h"
+//#import "EOAuthorizationViewController.h"
 
 #import "AFNetworking.h"
 #import "AFOAuth2Manager.h"
@@ -93,15 +93,15 @@ static NSMutableDictionary *providersDictionary = nil;
 
 #pragma mark * authorization
 
+
 - (void)authorizeWithCallbackURL:(NSString *)callbackURLString authViewController:(EOAuthorizationViewController *)authorizationViewController completion:(void(^)(NSError *error))completion {
     
     assert( callbackURLString != nil );
     
     self.authorizationCompletion = completion;
     
+
     if (!self.credential) {
-        // present view controller...
-        //EOAuthorizationViewController *authorizationViewController = [[EOAuthorizationViewController alloc] initWithNibName:@"EOAuthorizationViewController" bundle:nil];
         
         authorizationViewController.delegate = self;
         
@@ -114,6 +114,7 @@ static NSMutableDictionary *providersDictionary = nil;
          */
         [authorizationViewController authorizeWithClientId:self.clientId authorizationURL:self.oauth2AuthorizationURL redirectURL:callbackURLString];
     } else {
+        NSLog(@"crd: %@",self.credential);
         [self completeAuthorizationWithCredentials:self.credential error:nil];
     }
 }
@@ -186,6 +187,8 @@ static NSMutableDictionary *providersDictionary = nil;
 #pragma mark * EOAuthorizationViewControllerDelegate
 
 
+
+
 - (void)eoAuthorizationViewController:(EOAuthorizationViewController *)viewController didFinishWithResponse:(NSString *)response error:(NSError *)error {
 	
     // dismiss authorization view controller
@@ -204,6 +207,8 @@ static NSMutableDictionary *providersDictionary = nil;
 		[self completeAuthorizationWithCredentials:nil error:error];
 	}
 }
+
+
 
 
 #pragma mark * oauth2

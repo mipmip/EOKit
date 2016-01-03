@@ -1,21 +1,21 @@
 //
 //  EOAuthorizationViewController.h
-//  EOKit
+//  EOSDK
 //
-//  Created by Pim Snel on 29-12-15.
-//  Copyright © 2015 Lingewoud BV. All rights reserved.
+//  Created by Andrew Kopanev on 1/9/15.
+//  Copyright (c) 2015 Moqod. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <UIKit/UIKit.h>
 
 @class EOAuthorizationViewController;
 @protocol EOAuthorizationViewControllerDelegate <NSObject>
 
-- (void)eoAuthorizationViewController:(EOAuthorizationViewController *)viewController didFinishWithResponse:(NSString *)response error:(NSError *)error;
+- (void)eoAuthorizationViewController:(EOAuthorizationViewController *)viewController didFinishWithResponse:(NSDictionary *)response error:(NSError *)error;
 
 @end
 
-@interface EOAuthorizationViewController : NSViewController
+@interface EOAuthorizationViewController : UIViewController
 
 @property (nonatomic, strong) NSString *redirectURL;
 @property (nonatomic, assign) id <EOAuthorizationViewControllerDelegate> delegate;

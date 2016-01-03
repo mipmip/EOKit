@@ -1,5 +1,5 @@
 //
-//  EOAuthorizationViewController.m
+//  EOAuthorizationViewControllerOSX.m
 //  EOKit
 //
 //  Created by Pim Snel on 29-12-15.
@@ -24,21 +24,17 @@
     _myWebView = [[WebView alloc] initWithFrame:frame
                                               frameName:@"Test Frame"
                                               groupName:nil];
-    
     self.view = _myWebView;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [[_myWebView mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL
-                                                                     URLWithString:@"https://www.github.com"]]];
-    //_myWebView.delegate = self;
+//    [[_myWebView mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.github.com"]]];
     [_myWebView setFrameLoadDelegate:self];
 }
 
 - (void)webView:(WebView *)sender didFinishLoadForFrame:(WebFrame *)frame {
-   NSLog(@"halla");
 }
 
 - (void)authorizeWithClientId:(NSString *)clientId authorizationURL:(NSString *)authorizationURL redirectURL:(NSString *)redirectURL {
@@ -47,7 +43,6 @@
     }
     self.redirectURL = redirectURL;
     NSString *urlString = [NSString stringWithFormat:@"%@?response_type=code&client_id=%@&redirect_uri=%@", authorizationURL, clientId, redirectURL];
-    NSLog(@"%@", urlString);
     [[_myWebView mainFrame ] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:urlString]]];
 }
 
@@ -55,7 +50,6 @@
     NSString *currentRequest = [_myWebView mainFrameURL];
     
     NSArray *url_items = [currentRequest componentsSeparatedByString:@"code="];
-    NSLog(@"2: %@",[url_items lastObject]);
     [self.delegate eoAuthorizationViewController:self didFinishWithResponse:[url_items lastObject] error:nil];
 }
 

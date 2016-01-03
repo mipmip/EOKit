@@ -40,12 +40,7 @@
  
     [[EOAPIProvider providerWithClientId:clientId secret:secret] authorizeWithCallbackURL:callbackURL completion:^(NSError *error) {
         if (!error) {
-
-            HelloWorld *objectOfYourCustomClass = [[HelloWorld alloc] init];
-            objectOfYourCustomClass.name = @"Pim";
-            [objectOfYourCustomClass sayHello];
-            
-            //[self.navigationController pushViewController:[EOGLAccountsTableViewController new] animated:YES];
+           
         } else {
             NSLog(@"error == %@", error);
         }
