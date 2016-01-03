@@ -6,7 +6,7 @@ adding a pod file
 
 ## Todo
 
-### Code consolidation step one
+### Code consolidation step one 0.0.1 and 0.0.2
 - [x] Merge with GitHub
 - [x] write pod file
 - [x] seperate sample ios app
@@ -21,7 +21,7 @@ adding a pod file
 - [x] functional features OSX sample iOS
 - [x] osx sample app
 
-### Project organization
+### Project organization 0.0.3
 - [ ] complete version bump 0.0.3
 - [ ] create lib with pod and restrcuture project
 - [ ] add tests
