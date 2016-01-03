@@ -100,50 +100,18 @@ static NSMutableDictionary *providersDictionary = nil;
     
     self.authorizationCompletion = completion;
     
+    NSLog(@"crd1: %@",self.credential);
 
     if (!self.credential) {
         
         authorizationViewController.delegate = self;
         
-        /*
-        if ([self.delegate respondsToSelector:@selector(eoAPIProivder:mustPresentAuthorizationViewController:)]) {
-            [self.delegate eoAPIProivder:self mustPresentAuthorizationViewController:authorizationViewController];
-        } else {
-            [[[UIApplication sharedApplication] keyWindow].rootViewController presentViewController:authorizationViewController animated:YES completion:nil];
-        }
-         */
         [authorizationViewController authorizeWithClientId:self.clientId authorizationURL:self.oauth2AuthorizationURL redirectURL:callbackURLString];
     } else {
-        NSLog(@"crd: %@",self.credential);
+        NSLog(@"crd2: %@",self.credential);
         [self completeAuthorizationWithCredentials:self.credential error:nil];
     }
 }
-
-/*
-
-- (void)authorizeWithCallbackURL:(NSString *)callbackURLString completion:(void(^)(NSError *error))completion {
-    
-    assert( callbackURLString != nil );
-	
-	self.authorizationCompletion = completion;
-	if (!self.credential) {
-		// present view controller...
-		EOAuthorizationViewController *authorizationViewController = [[EOAuthorizationViewController alloc] initWithNibName:@"EOAuthorizationViewController" bundle:nil];
-        
-		authorizationViewController.delegate = self;
-		if ([self.delegate respondsToSelector:@selector(eoAPIProivder:mustPresentAuthorizationViewController:)]) {
-			[self.delegate eoAPIProivder:self mustPresentAuthorizationViewController:authorizationViewController];
-		} else {
-			[[[UIApplication sharedApplication] keyWindow].rootViewController presentViewController:authorizationViewController animated:YES completion:nil];
-		}
-		[authorizationViewController authorizeWithClientId:self.clientId authorizationURL:self.oauth2AuthorizationURL redirectURL:callbackURLString];
-	} else {
-		[self completeAuthorizationWithCredentials:self.credential error:nil];
-	}
-    
-}
- 
-*/
 
 - (void)logout {
 	// remove credentials

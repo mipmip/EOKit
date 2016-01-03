@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "11907B9F16C74F8D8F783105DF394A4495A6B697",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "11907B9F16C74F8D8F783105DF394A4495A6B697" : 0,
+    "93FDF6C05FEE5D2F08CA0AAF64DF1828C2B01FBB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CDD2B0AC-6473-4969-AE1B-2928ABC9F472",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "11907B9F16C74F8D8F783105DF394A4495A6B697" : "EOKit\/",
+    "93FDF6C05FEE5D2F08CA0AAF64DF1828C2B01FBB" : "..\/forks\/Exact-Online-iOS-SDK"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EOKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EOKit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Lingewoud\/EOKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "11907B9F16C74F8D8F783105DF394A4495A6B697"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mipmip\/Exact-Online-iOS-SDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "93FDF6C05FEE5D2F08CA0AAF64DF1828C2B01FBB"
+    }
+  ]
+}

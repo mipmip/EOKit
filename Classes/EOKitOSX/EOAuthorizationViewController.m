@@ -19,6 +19,8 @@
 @implementation EOAuthorizationViewController
 
 - (void)loadView {
+    NSLog(@"view: load");
+
     NSRect frame = NSMakeRect(0, 0, 400, 400);
 
     _myWebView = [[WebView alloc] initWithFrame:frame

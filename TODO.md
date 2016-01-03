@@ -21,13 +21,17 @@ adding a pod file
 - [x] functional features OSX sample iOS
 - [x] osx sample app
 
-### Next
+### Project organization
+- [ ] complete version bump 0.0.3
+- [ ] create lib with pod and restrcuture project
 - [ ] add tests
 - [ ] add travis
+
+### Next
+- [ ] more logical login algoritm
 - [ ] create README text
 - [ ] cleanup public/private headers
 - [ ] App tokens to separate place
-- [ ] complete version bump
 
 ## Descisions
 - [ ] move login to app, replace with delegate?
