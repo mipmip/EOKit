@@ -20,16 +20,16 @@
 
 ### Project organization 0.0.3
 - [x] complete version bump 0.0.3
+- [ ] push cocoapod
+
+### Next
 - [ ] post
 - [ ] update
 - [ ] delete
-
-### Next
-- [ ] create lib with pod and restrcuture project
 - [ ] add tests
 - [ ] add travis
 - [ ] more logical login algoritm
-- [ ] create README text
+- [x] create README text
 - [ ] cleanup public/private headers
 - [ ] App tokens to separate place
 
