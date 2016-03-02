@@ -159,15 +159,6 @@ static NSMutableDictionary *providersDictionary = nil;
 
 - (void)eoAuthorizationViewController:(EOAuthorizationViewController *)viewController didFinishWithResponse:(NSString *)response error:(NSError *)error {
 	
-    // dismiss authorization view controller
-	/*
-    if ([self.delegate respondsToSelector:@selector(eoAPIProivder:mustDismissAuthorizationViewController:)]) {
-		[self.delegate eoAPIProivder:self mustDismissAuthorizationViewController:viewController];
-	} else {
-		[viewController dismissViewControllerAnimated:YES completion:nil];
-	}
-    */
-	
 	if (!error && response) {
 		[self oauthGetTokenWithCode:[response stringByRemovingPercentEncoding] callbackURL:viewController.redirectURL];
 	} else {

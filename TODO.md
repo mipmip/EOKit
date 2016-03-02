@@ -1,8 +1,5 @@
 # Rewrite PROJECT
 
-## Goal
-rewrite to support OSX and IOS and to make this project more usable by
-adding a pod file
 
 ## Todo
 
@@ -22,12 +19,15 @@ adding a pod file
 - [x] osx sample app
 
 ### Project organization 0.0.3
-- [ ] complete version bump 0.0.3
+- [x] complete version bump 0.0.3
+- [ ] post
+- [ ] update
+- [ ] delete
+
+### Next
 - [ ] create lib with pod and restrcuture project
 - [ ] add tests
 - [ ] add travis
-
-### Next
 - [ ] more logical login algoritm
 - [ ] create README text
 - [ ] cleanup public/private headers
@@ -36,4 +36,3 @@ adding a pod file
 ## Descisions
 - [ ] move login to app, replace with delegate?
 - [ ] what to do which the login screen osx/ios/tvos
-- [ ] wel of geen sample apps in de eokit?

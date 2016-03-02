@@ -6,8 +6,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.3"
   s.summary      = "EOKit is an Exact Online client library for iOS and OSX."
   s.description  = <<-DESC
-  EOKit is an Exact Online client library for iOS and OSX. Other platform will
-  follow.
+  EOKit is an Exact Online client library for iOS and OSX.
   DESC
   s.homepage     = "https://github.com/Lingewoud/EOKit"
 
@@ -24,7 +23,7 @@ Pod::Spec.new do |s|
   # s.tvos.deployment_target = "9.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/Lingewoud/EOKit.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/Lingewoud/EOKit.git", :tag => "0.0.3" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source_files  = "Classes", "Classes/EOKitShared/*.{h,m}"
