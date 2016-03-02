@@ -28,7 +28,9 @@ EOKit is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "EOKit"
+# No podspec is published right now, so use the git url as pod source
+pod 'EOKit', :git => 'https://github.com/Lingewoud/EOKit.git'
+
 ```
 
 # Sample Applications
