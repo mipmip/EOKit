@@ -37,8 +37,8 @@ pod 'EOKit', :git => 'https://github.com/Lingewoud/EOKit.git'
 
 Please check the sample applications for real life usage.
 
-- [EOKit iOS Sample App](https://github.com/Lingewoud/EOKit-iOS-Sample-App)
-- [EOKit OSX Sample App](https://github.com/Lingewoud/EOKit-OSX-Sample-App)
+- [EOKit iOS Sample App](https://github.com/mipmip/EOKit-iOS-Sample-App)
+- [EOKit OSX Sample App](https://github.com/mipmip/EOKit-OSX-Sample-App)
 
 # Sample
 Authorization
